@@ -1,4 +1,5 @@
-export class Lib {
+export default
+    class Lib {
     public name: any;
     constructor(name: any) {
         this.name = name;
