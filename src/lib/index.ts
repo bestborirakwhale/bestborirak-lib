@@ -1,11 +1,2 @@
-export default
-    class Lib {
-    public name: any;
-    constructor(name: any) {
-        this.name = name;
-    }
-
-    getName = () => {
-        return this.name;
-    }
-}
+import Plugin from './plugin';
+export = new Plugin();
