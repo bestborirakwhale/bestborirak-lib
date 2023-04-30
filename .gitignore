@@ -1,0 +1,19 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+#VSCode
+.vscode
+
+#Ignore build folder
+build
+
+#Ignore
+*.log
+
+#Ignore out folder
+out
+
+.scannerwork
+package-lock.json
+rev.txt

@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": ".",
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowJs": true,
+      "skipLibCheck": true
+    },
+    "include": [
+      "src/**/**.ts",
+      "src/**/**.js",
+      "test/**/**.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
