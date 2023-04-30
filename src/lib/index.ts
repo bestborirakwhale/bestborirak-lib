@@ -1,2 +1,28 @@
-import Plugin from './plugin';
-export = new Plugin();
+class Color {
+    name: string;
+    code: string;
+    constructor(name: any, code: any) {
+        this.name = name;
+        this.code = code;
+    }
+}
+
+const allColors = [
+    new Color('brightred', '#E74C3C'),
+    new Color('soothingpurple', '#9B59B6'),
+    new Color('skyblue', '#5DADE2'),
+    new Color('leafygreen', '#48C9B0'),
+    new Color('sunkissedyellow', '#F4D03F'),
+    new Color('groovygray', '#D7DBDD'),
+];
+
+exports.getRandomColor = () => {
+    return allColors[Math.floor(Math.random() * allColors.length)];
+}
+exports.getRandomColor = () => {
+    return allColors[Math.floor(Math.random() * allColors.length)];
+}
+exports.getBlue = () => {
+    return allColors[2];
+}
+exports.allColors = allColors;
