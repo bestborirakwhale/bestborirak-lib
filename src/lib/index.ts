@@ -16,13 +16,12 @@ const allColors = [
     new Color('groovygray', '#D7DBDD'),
 ];
 
-exports.getRandomColor = () => {
+export function getRandomColor () {
     return allColors[Math.floor(Math.random() * allColors.length)];
 }
-exports.getRandomColor = () => {
-    return allColors[Math.floor(Math.random() * allColors.length)];
-}
-exports.getBlue = () => {
+export function getBlue () {
     return allColors[2];
 }
-exports.allColors = allColors;
+export function getAllColors() {
+    return allColors;
+}
